@@ -33,6 +33,8 @@ else
     Console.WriteLine("1-iFöön\n2-xiomjäu\n3-nihuawei\n4-Scamsung");
     Console.WriteLine("palun tee valik, kirjutades vastav arv:");
     int telefonimudel = 0;
+    telefonimudel = int.Parse(Console.ReadLine());
+
     while (telefonimudel < 1 && telefonimudel > 4)
     {
         telefonimudel = int.Parse(Console.ReadLine());
@@ -55,6 +57,6 @@ else
         default:
             Console.WriteLine("Ei tuune sellist relefonitootjat");
             break;
-
     }
+
 }
