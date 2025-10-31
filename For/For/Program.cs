@@ -26,4 +26,4 @@
 //}
 //                      0           1               2               3           4
 string[] monster = {"MrSkeltal","Frankenstein","Shigeru Myamoti"," Kratt","Joodik Baltu Jaamas"};
-Console.WriteLine(monster[1]);
+Console.WriteLine(monster[0]);
